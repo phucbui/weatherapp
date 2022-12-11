@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="js/all.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Weather App</title>
 </head>
 <body>
-    Hello everyone!!
+    <div class="container">
+        <div class="main-section">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="searh-city" id="search-input">
+            </div>
+            <p class="city-name">Ho Chi Minh</p>
+            <p class="weather-state">May thua</p>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon">
+            <p class="temperature">26</p>
+        </div>
+        <div class="addtional-section">
+            <div class="row">
+                <div class="item">
+                    <div class="label">MT Moc</div>
+                    <div class="value">6:16</div>
+                </div>
+                <div class="item">
+                    <div class="label">MT Lan</div>
+                    <div class="value">17:57</div>
+                </div>
+                <div class="item">
+                    <div class="label">Do am</div>
+                    <div class="value">73%</div>
+                </div>
+                <div class="item">
+                    <div class="label">Gio</div>
+                    <div class="value">5.54 km/h</div>
+                </div>
+            </div>
+            <div class="row"></div>
+        </div>
+    </div>
 </body>
 </html>

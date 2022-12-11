@@ -1,0 +1,9 @@
+###
+GET api.openweathermap.org/data/2.5/weather?q=HCM&APPID=6b344aa10bfe8a520d3722eb39b28444
+Content-Type: application/json
+
+{
+    "q": "Ho Chi Minh",
+    "APPID":"6b344aa10bfe8a520d3722eb39b28444"
+}
+
